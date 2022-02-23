@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int volume(int height, int width, int length);
+int volume(int height, int width, int length);  //call the function 
 
 int main() {
     int box1Height, box1Width, box1Length;
-    int box2Height, box2Width, box2Length;
+    int box2Height, box2Width, box2Length;  //varriable declaration 
     int totalVolume, totalSurface;
     
     cout << "Enter Box 1 Height : ";
@@ -30,4 +30,7 @@ int main() {
     return 0;
 }
 
-// Implement the Volume() function here
+int volume(int height, int width, int length)
+{
+  return height*width*length;   //implement the function
+}
